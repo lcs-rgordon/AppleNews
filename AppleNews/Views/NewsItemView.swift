@@ -27,8 +27,11 @@ struct NewsItemView: View {
                 .scaledToFit()
 
             Text(headline)
-                .font(.title)
+                .font(.title3)
                 .fontWeight(.semibold)
+                .padding(.horizontal)
+            
+            Spacer()
             
             Divider()
             
