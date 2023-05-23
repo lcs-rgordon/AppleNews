@@ -17,7 +17,7 @@ struct NewsItemView: View {
     
     // MARK: Computed properties
     var body: some View {
-        VStack {
+        VStack(alignment: .leading) {
             Image(image)
                 .resizable()
                 .scaledToFit()
@@ -42,6 +42,7 @@ struct NewsItemView: View {
         }
         .background(Color("ArticleSlugBackground"))
         .cornerRadius(25)
+        .padding()
     }
 }
 
