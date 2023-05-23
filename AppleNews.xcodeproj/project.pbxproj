@@ -11,6 +11,7 @@
 		81E946BF2A1D149400586774 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E946BE2A1D149400586774 /* Assets.xcassets */; };
 		81E946C22A1D149400586774 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81E946C12A1D149400586774 /* Preview Assets.xcassets */; };
 		81E946CA2A1D152D00586774 /* NewsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E946C92A1D152D00586774 /* NewsListView.swift */; };
+		81E946CC2A1D1CFE00586774 /* NewsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E946CB2A1D1CFE00586774 /* NewsItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		81E946BE2A1D149400586774 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81E946C12A1D149400586774 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		81E946C92A1D152D00586774 /* NewsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListView.swift; sourceTree = "<group>"; };
+		81E946CB2A1D1CFE00586774 /* NewsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				81E946C92A1D152D00586774 /* NewsListView.swift */,
+				81E946CB2A1D1CFE00586774 /* NewsItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			files = (
 				81E946BB2A1D149300586774 /* AppleNewsApp.swift in Sources */,
 				81E946CA2A1D152D00586774 /* NewsListView.swift in Sources */,
+				81E946CC2A1D1CFE00586774 /* NewsItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
