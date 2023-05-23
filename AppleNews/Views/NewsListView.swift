@@ -30,7 +30,9 @@ struct NewsListView: View {
                 Image(systemName: "ellipsis")
             }
             .foregroundColor(.secondary)
+            .padding(15)
         }
+        .background(Color("ArticleSlugBackground"))
     }
 }
 
